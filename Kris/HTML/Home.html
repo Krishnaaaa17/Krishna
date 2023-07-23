@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="../Bootstrap/Css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+                 <a href="">Shopping Cart</a>
+            </div>
+            <div>
+                <a href="./Cart.html"><i class='bx bxs-cart' ></i>My Cart</a>
+                <span class='badge badge-warning' id='lblCartCount'> 0 </span>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="row-section">
+        <div>
+            <br>
+            <h2 id="shop-product">Shopping Products</h2>
+        </div>
+
+     <div class="product-container">
+
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\ASUS.png" alt="Image not found">
+            <h2>ASUS ROG STRIX </h2>
+            <span>₹1,17,999</span>
+            <i class="bx bxs-shopping-bag-alt"></i>
+            <br><br>
+            <button type="button" onclick="addToCart('AXL Vayu Book ','item_1',17999)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+    
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\lenevo.png" alt="Loading">
+            <h2>Lenovo D330 Ideapad</h2>
+            <span>₹69,999</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('Lenovo D330 Ideapad','item_2',20941)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\acer.png" alt="Loading">
+            <h2>Acer A315-23 Aspire 3</h2>
+            <span>₹65,990</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('Acer A315-23 Aspire 3','item_3',25990)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\hp.png" alt="Loading">
+            <h2>HP Pavilion x360 convertible laptop</h2>
+            <span>₹45,999</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('HP Pavilion x360 convertible laptop','item_4',45999)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\aeb.jpeg" alt="Loading">
+            <h2>Asus ExpertBook P1</h2>
+            <span>₹66,499</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('Asus ExpertBook P1','item_5',46499)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\Untitled-1111-6.png" alt="Loading">
+            <h2>Asus HN113WS TUF Gaming</h2>
+            <span>₹87,990</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('Asus HN113WS TUF Gaming','item_6',57990)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\victus.jpg" alt="Loading">
+            <h2>HP Victus 15-fa0117TX Gaming</h2>
+            <span>₹68,049</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('HP Victus 15-fa0117TX Gaming','item_7',68049)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\41OdlwlaEeS.jpg" alt="Loading">
+            <h2>HP 15-EC1048X Pavilion Gaming</h2>
+            <span>₹78,997</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('HP 15-EC1048X Pavilion Gaming','item_8',68997)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\apple.jpg" alt="Loading">
+            <h2>Apple Macbook Pro laptop</h2>
+            <span>₹2,49,900</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('Apple Macbook Pro laptop','item_9',249900)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\lenovo-laptops-legion-5.webp" alt="Loading">
+            <h2>Lenevo Legion 5 Pro Gaming</h2>
+            <span>₹2,09,091</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('Lenevo Legion 5 Pro Gaming','item_10',209091)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\ms.jpeg" alt="Loading">
+            <h2>New Microsoft Surface Pro 9</h2>
+            <span>₹1,62,990</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('New Microsoft Surface Pro 9','item_11',162990)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+        <div class="card">
+            <img src="C:\Users\krish\Kris\IMAGES\SiosMrgr.jpg" alt="Loading">
+            <h2>Asus Zenbook S13</h2>
+            <span>₹1,09,990</span>
+            <i class='bx bxs-shopping-bag-alt'></i>
+            <br><br>
+            <button type="button" onclick="addToCart('Asus Zenbook S13','item_12',109990)">Add to cart</button>
+            <i class='bx bxs-cart-alt'></i>
+        </div>
+        
+    </div>
+    </div>
+
+    <script src="..//Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
